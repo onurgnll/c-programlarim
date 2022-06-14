@@ -34,7 +34,7 @@ int main(){
 		
 	else if ( isaret == '*' ){
 		
-		sonuc2 = sayi1 * sayi2;
+		sonuc = sayi1 * sayi2;
 		printf("Sonuc = %d", sonuc);
 	}
 		

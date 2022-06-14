@@ -1,16 +1,21 @@
 #include <stdio.h>
+void swap(int a, int b)
+{
+        int temp = a;
+
+        a = b;
+        b = temp;
+}
 
 int main(void)
 {
-  char cd1, cd2;
+        int a = 1, b = 2;
 
-  printf("Ýki karakter girip ENTER tuþuna basýnýz: ");
+        printf("before: a = %d, b = %d\n", a, b);
 
-  cd1 = getchar();
-  cd2 = getchar();
+        swap(a, b);
 
-  printf("Girdiðiniz karakterler: %c %c", cd1, cd2);
+        printf("after: a = %d, b = %d\n", a, b);
 
-  return 0;
+        return 0;
 }
-//deneme
